@@ -1,0 +1,23 @@
+import turtle
+import time
+
+gj=turtle.Turtle()
+gj.circle(100)
+gj.up()
+gj.goto(-40,120)
+gj.down()
+gj.begin_fill()
+gj.fillcolor('black')
+gj.circle(10)
+gj.up()
+gj.goto(40,120)
+gj.down()
+gj.circle(10)
+gj.end_fill()
+gj.up()
+gj.goto(-20,40)
+gj.down()
+gj.right(90)
+gj.circle(20,180)
+gj.hideturtle()
+time.sleep(5)
